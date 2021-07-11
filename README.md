@@ -5,8 +5,6 @@ Overview of the analysis: Explain the purpose of this analysis.
 The purpose of this analysis is well defined (4 pt)
 
 ## Results
-Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 
 ### Naive Random Oversampling
 1. Balanced accuracy score: 65.3%
@@ -16,6 +14,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 5. Recall score (avg / total): 67%
 6. Recall score (high_risk): 63%
 7. Recall score (low_risk): 67%
+8. _Model conclusions: _
 #### Balanced Accuracy Score
 ![acc_sco_1.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_1.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -30,6 +29,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 5. Recall score (avg / total): 66%
 6. Recall score (high_risk): 64%
 7. Recall score (low_risk): 66%
+8. _Model conclusions: _
 #### Balanced Accuracy Score
 ![acc_sco_2.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_2.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -44,6 +44,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 5. Recall score (avg / total): 46%
 6. Recall score (high_risk): 59%
 7. Recall score (low_risk): 46%
+8. _Model conclusions: _
 #### Balanced Accuracy Score
 ![acc_sco_3.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_3.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -58,6 +59,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 5. Recall score (avg / total): 57%
 6. Recall score (high_risk): 70%
 7. Recall score (low_risk): 57%
+8. _Model conclusions: _
 #### Balanced Accuracy Score
 ![acc_sco_4.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_4.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -72,6 +74,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 5. Recall score (avg / total): 89%
 6. Recall score (high_risk): 68%
 7. Recall score (low_risk): 89%
+8. _Model conclusions: _
 #### Balanced Accuracy Score
 ![acc_sco_5.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_5.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -86,6 +89,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 5. Recall score (avg / total): 95%
 6. Recall score (high_risk): 89%
 7. Recall score (low_risk): 95%
+8. _Model conclusions: _
 #### Balanced Accuracy Score
 ![acc_sco_6.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_6.png?raw=true)
 #### Precision and Recall Scores (classification report)
