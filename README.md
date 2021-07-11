@@ -9,27 +9,33 @@ Results: Using bulleted lists, describe the balanced accuracy scores and the pre
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 
 ### Naive Random Oversampling
-
+#### Balanced Accuracy Score
+#### Precision and Recall Scores (classification report)
 
 
 ### SMOTE Oversampling
-
+#### Balanced Accuracy Score
+#### Precision and Recall Scores (classification report)
 
 
 ### Undersampling
-
+#### Balanced Accuracy Score
+#### Precision and Recall Scores (classification report)
 
 
 ### Combination (Over and Under) Sampling
-
+#### Balanced Accuracy Score
+#### Precision and Recall Scores (classification report)
 
 
 ### Balanced Random Forest Classifier
-
+#### Balanced Accuracy Score
+#### Precision and Recall Scores (classification report)
 
 
 ### Easy Ensemble AdaBoost Classifier
-
+#### Balanced Accuracy Score
+#### Precision and Recall Scores (classification report)
 
 
 ## Summary
