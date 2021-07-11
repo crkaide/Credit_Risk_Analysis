@@ -1,8 +1,7 @@
 # Credit Risk Analysis
 
 ## Overview
-Overview of the analysis: Explain the purpose of this analysis.
-The purpose of this analysis is well defined (4 pt)
+The client, Fast Lending, offers peer-to-peer lending services to its customers, and would like to utilize machine learning on existing datasets to determine the risk associated with new applications.  Leadership goals are to increase speed and accuracy from the customer's perspective while continuing to improve its application alogrithm to decrease default rates as much as possible.  Six potential supervised machine learning models are presented below, each with relevant metrics and performance conclusions.
 
 ## Results
 
