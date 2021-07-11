@@ -1,7 +1,7 @@
 # Credit Risk Analysis
 
 ## Overview
-The client, Fast Lending, offers peer-to-peer lending services to its customers, and would like to utilize machine learning on existing datasets to determine the risk associated with new applications.  Leadership goals are to increase speed and accuracy from the customer's perspective while continuing to improve Fast Lending's application alogrithm to decrease default rates as much as possible.  Six potential supervised machine learning models are presented below, each with relevant metrics and performance conclusions.
+The client, Fast Lending, offers peer-to-peer lending services to its customers, and would like to utilize machine learning on existing datasets to determine the risk associated with new applications.  Leadership goals are to increase speed and accuracy from the customer's perspective while continuing to improve Fast Lending's application evaluation alogrithm to decrease default rates as much as possible.  Six potential supervised machine learning models are presented below, each with relevant metrics and performance conclusions.
 
 ## Results
 
