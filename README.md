@@ -17,37 +17,37 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 ### SMOTE Oversampling
 #### Balanced Accuracy Score
-
+![acc_sco_2.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_2.png?raw=true)
 #### Precision and Recall Scores (classification report)
-
+![class_rep_2.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/class_rep_2.png?raw=true)
 
 
 ### Undersampling
 #### Balanced Accuracy Score
-
+![acc_sco_3.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_3.png?raw=true)
 #### Precision and Recall Scores (classification report)
-
+![class_rep_3.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/class_rep_3.png?raw=true)
 
 
 ### Combination (Over and Under) Sampling
 #### Balanced Accuracy Score
-
+![acc_sco_4.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_4.png?raw=true)
 #### Precision and Recall Scores (classification report)
-
+![class_rep_4.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/class_rep_4.png?raw=true)
 
 
 ### Balanced Random Forest Classifier
 #### Balanced Accuracy Score
-
+![acc_sco_5.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_5.png?raw=true)
 #### Precision and Recall Scores (classification report)
-
+![class_rep_5.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/class_rep_5.png?raw=true)
 
 
 ### Easy Ensemble AdaBoost Classifier
 #### Balanced Accuracy Score
-
+![acc_sco_6.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_6.png?raw=true)
 #### Precision and Recall Scores (classification report)
-
+![class_rep_6.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/class_rep_6.png?raw=true)
 
 
 ## Summary
