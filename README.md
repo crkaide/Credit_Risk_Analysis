@@ -9,6 +9,13 @@ Results: Using bulleted lists, describe the balanced accuracy scores and the pre
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
 
 ### Naive Random Oversampling
+1. Balanced accuracy score: 65.3%
+2. Precision score (avg / total): 99%
+3. Precision score (high_risk): 1%
+4. Precision score (low_risk): 100%
+5. Recall score (avg / total): 67%
+6. Recall score (high_risk): 63%
+7. Recall score (low_risk): 67%
 #### Balanced Accuracy Score
 ![acc_sco_1.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_1.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -16,6 +23,13 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 
 ### SMOTE Oversampling
+1. Balanced accuracy score: 65.1%
+2. Precision score (avg / total): 99%
+3. Precision score (high_risk): 1%
+4. Precision score (low_risk): 100%
+5. Recall score (avg / total): 66%
+6. Recall score (high_risk): 64%
+7. Recall score (low_risk): 66%
 #### Balanced Accuracy Score
 ![acc_sco_2.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_2.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -23,6 +37,13 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 
 ### Undersampling
+1. Balanced accuracy score: 52.2%
+2. Precision score (avg / total): 99%
+3. Precision score (high_risk): 1%
+4. Precision score (low_risk): 100%
+5. Recall score (avg / total): 46%
+6. Recall score (high_risk): 59%
+7. Recall score (low_risk): 46%
 #### Balanced Accuracy Score
 ![acc_sco_3.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_3.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -30,6 +51,13 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 
 ### Combination (Over and Under) Sampling
+1. Balanced accuracy score: 63.8%
+2. Precision score (avg / total): 99%
+3. Precision score (high_risk): 1%
+4. Precision score (low_risk): 100%
+5. Recall score (avg / total): 57%
+6. Recall score (high_risk): 70%
+7. Recall score (low_risk): 57%
 #### Balanced Accuracy Score
 ![acc_sco_4.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_4.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -37,6 +65,13 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 
 ### Balanced Random Forest Classifier
+1. Balanced accuracy score: 78.4%
+2. Precision score (avg / total): 99%
+3. Precision score (high_risk): 3%
+4. Precision score (low_risk): 100%
+5. Recall score (avg / total): 89%
+6. Recall score (high_risk): 68%
+7. Recall score (low_risk): 89%
 #### Balanced Accuracy Score
 ![acc_sco_5.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_5.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -44,6 +79,13 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 
 ### Easy Ensemble AdaBoost Classifier
+1. Balanced accuracy score: 92.3%
+2. Precision score (avg / total): 99%
+3. Precision score (high_risk): 8%
+4. Precision score (low_risk): 100%
+5. Recall score (avg / total): 95%
+6. Recall score (high_risk): 89%
+7. Recall score (low_risk): 95%
 #### Balanced Accuracy Score
 ![acc_sco_6.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_6.png?raw=true)
 #### Precision and Recall Scores (classification report)
