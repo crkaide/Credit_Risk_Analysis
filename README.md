@@ -10,32 +10,44 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 ### Naive Random Oversampling
 #### Balanced Accuracy Score
+![acc_sco_1.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_1.png?raw=true)
 #### Precision and Recall Scores (classification report)
+![class_rep_1.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/class_rep_1.png?raw=true)
 
 
 ### SMOTE Oversampling
 #### Balanced Accuracy Score
+
 #### Precision and Recall Scores (classification report)
+
 
 
 ### Undersampling
 #### Balanced Accuracy Score
+
 #### Precision and Recall Scores (classification report)
+
 
 
 ### Combination (Over and Under) Sampling
 #### Balanced Accuracy Score
+
 #### Precision and Recall Scores (classification report)
+
 
 
 ### Balanced Random Forest Classifier
 #### Balanced Accuracy Score
+
 #### Precision and Recall Scores (classification report)
+
 
 
 ### Easy Ensemble AdaBoost Classifier
 #### Balanced Accuracy Score
+
 #### Precision and Recall Scores (classification report)
+
 
 
 ## Summary
