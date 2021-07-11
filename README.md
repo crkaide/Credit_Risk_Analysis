@@ -14,7 +14,7 @@ The purpose of this analysis is well defined (4 pt)
 5. Recall score (avg / total): 67%
 6. Recall score (high_risk): 63%
 7. Recall score (low_risk): 67%
-8. Model conclusions: 
+8. Model conclusions: The precision score for the high-risk applications is very low, meaning there is a high incidence of false positives.  The recall score for high-risk applications is somewhat higher than chance, indicating a lower than chance incidence of false negatives.
 #### Balanced Accuracy Score
 ![acc_sco_1.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_1.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -29,7 +29,7 @@ The purpose of this analysis is well defined (4 pt)
 5. Recall score (avg / total): 66%
 6. Recall score (high_risk): 64%
 7. Recall score (low_risk): 66%
-8. Model conclusions: 
+8. Model conclusions: The precision score for the high-risk applications is very low, meaning there is a high incidence of false positives.  The recall score for high-risk applications is somewhat higher than chance, indicating a lower than chance incidence of false negatives.  Based on these metrics and the statistically similar balanced accuracy score, this model performs roughly as well as naive random oversampling.
 #### Balanced Accuracy Score
 ![acc_sco_2.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_2.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -44,7 +44,7 @@ The purpose of this analysis is well defined (4 pt)
 5. Recall score (avg / total): 46%
 6. Recall score (high_risk): 59%
 7. Recall score (low_risk): 46%
-8. Model conclusions: _
+8. Model conclusions: The precision score for the high-risk applications is very low, meaning there is a high incidence of false positives.  The recall score for high-risk applications is slightly lower than chance, indicating a slightly higher than chance incidence of false negatives.  Based on these metrics and the accuracy score, this model is outperformed by both naive random oversampling and SMOTE oversampling.
 #### Balanced Accuracy Score
 ![acc_sco_3.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_3.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -59,7 +59,7 @@ The purpose of this analysis is well defined (4 pt)
 5. Recall score (avg / total): 57%
 6. Recall score (high_risk): 70%
 7. Recall score (low_risk): 57%
-8. Model conclusions: 
+8. Model conclusions: The precision score for the high-risk applications is very low, meaning there is a high incidence of false positives.  The recall score for high-risk applications is robust, indicating a moderately low incidence of false negatives.  Based on these metrics and the accuracy score, this model outperforms all preceding models.
 #### Balanced Accuracy Score
 ![acc_sco_4.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_4.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -74,7 +74,7 @@ The purpose of this analysis is well defined (4 pt)
 5. Recall score (avg / total): 89%
 6. Recall score (high_risk): 68%
 7. Recall score (low_risk): 89%
-8. Model conclusions: 
+8. Model conclusions: The precision score for the high-risk applications is very low, meaning there is a high incidence of false positives (it is slightly higher than all preceding models).  The recall score for high-risk applications is robust, indicating a moderately low incidence of false negatives.  Based on these metrics and the accuracy score (which is significantly higher than any so far), this model outperforms all preceding models.
 #### Balanced Accuracy Score
 ![acc_sco_5.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_5.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -89,7 +89,7 @@ The purpose of this analysis is well defined (4 pt)
 5. Recall score (avg / total): 95%
 6. Recall score (high_risk): 89%
 7. Recall score (low_risk): 95%
-8. Model conclusions: 
+8. Model conclusions: The precision score for the high-risk applications is very low, meaning there is a high incidence of false positives (it is higher than all preceding models).  The recall score for high-risk applications is very high, indicating a very low incidence of false negatives.  Based on these metrics and the accuracy score (which is significantly higher than any other), this model significantly outperforms all preceding models.  *Note:  This data may be overfitted.*
 #### Balanced Accuracy Score
 ![acc_sco_6.png](https://github.com/crkaide/Credit_Risk_Analysis/blob/main/Images/acc_sco_6.png?raw=true)
 #### Precision and Recall Scores (classification report)
@@ -97,7 +97,10 @@ The purpose of this analysis is well defined (4 pt)
 
 
 ## Summary
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+The high-risk precision score remained relatively static through the first four models and began to climb in the balanced random forest classifier, topping out at 8% in the easy ensemble adaboost classifier.  For the high-risk category, a high incidence of false positives requires human review, while a lower incidence increases the risk of approving a high-risk application.  In my opinion, 3% (balanced random forest classifier) strikes the best balance between these condsiderations.
 
+While the high-risk recall score of the balanced random forest classifier (68%) is lower than that of the easy ensemble adaboost classifier (89%), the metric of the latter suggests the data may be overfitted to this model, and the model may not perform well with new input.  Both scores indicate models that will perform with a lower incidence of false negatives, but in my opinion, the balanced random forest classifier appears to be accurate without also being overfitted.
+
+The balanced accuracy scores of these two models (78.4%/Forest & 92.3%/AdaBoost) are further evidence for the above interpretation, suggesting that the balanced random forest classifier is robust enough to make reliable predictions about new data while not being overfitted to the training and testing data, while the easy ensemble adaboost classifier, though appearing highly accurate, may have greater trouble performing accurate analysis on new data.
+
+**I recommend using the balanced random forest classifier.**
