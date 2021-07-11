@@ -96,7 +96,7 @@ The client, Fast Lending, offers peer-to-peer lending services to its customers,
 
 
 ## Summary
-The high-risk precision score remained relatively static through the first four models and began to climb in the balanced random forest classifier, topping out at 8% in the easy ensemble adaboost classifier.  For the high-risk category, a high incidence of false positives requires human review, while a lower incidence increases the risk of approving a high-risk application.  In my opinion, 3% (balanced random forest classifier) strikes the best balance between these condsiderations.
+The high-risk precision score remained relatively static through the first four models and began to climb in the balanced random forest classifier, topping out at 8% in the easy ensemble adaboost classifier.  For the high-risk category, a high incidence of false positives requires human review, while a lower incidence increases the risk of approving a high-risk application.  In my opinion, 3% (balanced random forest classifier) strikes the best balance between these considerations.
 
 While the high-risk recall score of the balanced random forest classifier (68%) is lower than that of the easy ensemble adaboost classifier (89%), the metric of the latter suggests the data may be overfitted to this model, and the model may not perform well with new input.  Both scores indicate models that will perform with a lower incidence of false negatives, but in my opinion, the balanced random forest classifier appears to be accurate without also being overfitted.
 
