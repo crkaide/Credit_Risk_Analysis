@@ -100,6 +100,6 @@ The high-risk precision score remained relatively static through the first four 
 
 While the high-risk recall score of the balanced random forest classifier (68%) is lower than that of the easy ensemble adaboost classifier (89%), the metric of the latter suggests the data may be overfitted to this model, and the model may not perform well with new input.  Both scores indicate models that will perform with a lower incidence of false negatives, but in my opinion, the balanced random forest classifier appears to be accurate without also being overfitted.
 
-The balanced accuracy scores of these two models (78.4%/Forest & 92.3%/AdaBoost) are further evidence for the above interpretation, suggesting that the balanced random forest classifier is robust enough to make reliable predictions about new data while not being overfitted to the training and testing data, while the easy ensemble adaboost classifier, though appearing highly accurate, may have greater trouble performing accurate analysis on new data.
+The balanced accuracy scores of these two models (78.4%/Forest & 92.3%/AdaBoost) are further evidence for the above interpretation, suggesting that the balanced random forest classifier is robust enough to make reliable predictions about new data while not being overfitted to the training and testing data, while the easy ensemble adaboost classifier, though appearing highly accurate, may have greater trouble performing reliable analysis on new data.
 
 **I recommend using the balanced random forest classifier.**
